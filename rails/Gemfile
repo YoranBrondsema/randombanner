@@ -6,9 +6,13 @@ gem 'rails', '4.1.4'
 gem 'pg'
 # JSON
 gem 'active_model_serializers'
+# OmniAuth for Twitter
+gem 'omniauth-twitter'
 
 group :development, :test do
   gem 'sqlite3'
+  # .env
+  gem 'dotenv'
 end
 
 group :development do
